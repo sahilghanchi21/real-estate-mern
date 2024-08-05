@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiRequest = axios.create({
-  baseURL: "https://real-estate-mern-api-liart.vercel.app/",
+  baseURL: "http://localhost:8000/api",
   withCredentials: true,
 });
 
