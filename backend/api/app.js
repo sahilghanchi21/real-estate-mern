@@ -10,7 +10,7 @@ import messageRoute from "./routes/message.route.js";
 
 const app = express();
 
-app.use(cors({ origin: process.env.CLIENT_URL, credentials: true }));
+app.use(cors({ origin: "https://real-estate-mern-frontend-rho.vercel.app/", credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
 
